@@ -1,0 +1,76 @@
+/*------ default styles --------*/
+*::-webkit-input-placeholder
+  color: #666
+  opacity: 1
+
+*:-moz-placeholder
+  color: #666
+  opacity: 1
+
+*::-moz-placeholder
+  color: #666
+  opacity: 1
+
+*:-ms-input-placeholder
+  color: #666
+  opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+  color: #666
+body input:required:valid,
+body textarea:required:valid
+  color: #666
+
+html, body
+  height: 100%
+
+body
+  font-size: 14px
+  min-width: 320px
+  background: $body
+  position: relative
+  line-height: 1.1
+  font-family: $osReg
+  overflow-x: hidden
+  //overflow-y: scroll !important
+  opacity: 1
+
+.fancybox-content
+  padding: 0 !important
+
+.fancybox-is-open .fancybox-bg
+  opacity: .6 !important
+
+.img-responsive
+  display: block
+  max-width: 100%
+  height: auto
+
+.section
+  width: 100%
+
+.clear
+  clear: both
+
+.compensate
+  padding-right: 17px
+
+
+ul
+  list-style-type: none
+  display: inline-block
+  li
+    display: inline-block
+
+a
+  text-decoration: none
+  transition: .5s
+  &:hover
+    transition: .5s
+
+.fixed
+  position: fixed
+  overflow-y: hidden
+  width: 100%
+  margin-right: 0

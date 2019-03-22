@@ -1,0 +1,170 @@
+/*------- footer beginning -------*/
+.footer
+  width: 100%
+  background: #234d80
+  padding: 40px 0
+  &__flex
+    display: flex
+    justify-content: space-between
+    +respond-to(-480)
+      flex-direction: column
+      justify-content: center
+    +respond-to(-320)
+      flex-direction: column
+      justify-content: center
+  &__left
+    width: 67%
+    display: inline-block
+    position: relative
+    +respond-to(-992)
+      width: 75%
+    +respond-to(-480)
+      display: block
+      width: 100%
+    +respond-to(-320)
+      display: block
+      width: 100%
+  &__logo
+    display: inline-block
+    width: 94px
+    height: 102px
+    margin-left: 4px
+    margin-right: 20px
+    float: left
+    img
+      width: 100%
+    +respond-to(-768)
+      margin-left: 0
+    +respond-to(-486)
+      margin-left: 0
+    +respond-to(-320)
+      width: 76px
+      height: auto
+      margin-right: 9px
+  &__txt
+    display: inline-block
+    //float: right
+    width: 75%
+    position: relative
+    top: 15px
+    +respond-to(-768)
+      width: 60%
+    +respond-to(-468)
+      width: 65%
+    +respond-to(-320)
+      width: 69%
+      top: 0
+  &__logo_txt
+    display: block
+    font-family: $osReg
+    font-size: 18px
+    color: $white
+    line-height: 1.4
+    +respond-to(-768)
+      font-size: 14px
+    +respond-to(-480)
+      font-size: 14px
+    +respond-to(-320)
+      font-size: 12px
+  &__logo_txt_bottom
+    display: block
+    font-family: $osReg
+    font-size: 14px
+    color: $white
+    padding-top: 7px
+    padding-left: 2px
+    opacity: .7
+    +respond-to(-768)
+      font-size: 13px
+    +respond-to(-320)
+      font-size: 13px
+  &__right
+    position: relative
+    display: inline-block
+    width: 30%
+    color: $white
+    //float: right
+    padding-top: 18px
+    text-align: right
+    +respond-to(992)
+      width: 35%
+    +respond-to(768)
+      display: block
+      width: 100%
+      text-align: center
+    +respond-to(-320)
+      display: block
+      width: 100%
+      text-align: center
+  &__hotline
+    display: block
+    font-family: $osReg
+    font-size: 14px
+    text-transform: uppercase
+    +respond-to(-480)
+      display: none
+    +respond-to(-320)
+      display: none
+  &__telnumb
+    display: block
+    font-family: $osReg
+    font-size: 30px
+    padding-top: 5px
+    padding-bottom: 4px
+    +respond-to(992)
+      font-size: 24px
+    +respond-to(768)
+      font-size: 18px
+      display: none
+  &__callback
+    font-family: $osReg
+    font-size: 14px
+    color: $white
+    text-decoration: none
+    display: block
+    width: 262px
+    height: 46px
+    background: #005ea0
+    text-transform: uppercase
+    border-radius: 3px
+    padding: 16px 0
+    float: right
+    text-align: center
+    transition: .5s
+    margin-top: 10px
+    &:hover
+      text-decoration: none
+      color: $white
+      opacity: .9
+      transition: .5s
+    &:focus
+      text-decoration: none
+      color: $white
+      opacity: .9
+      transition: .5s
+    +respond-to(992)
+      font-size: 13px
+    +respond-to(768)
+      float: none
+      display: block
+      width: 213px
+      height: 46px
+      background: #005ea0
+      margin: 0 auto
+      text-transform: uppercase
+      border-radius: 3px
+      padding: 16px 0
+    +respond-to(480)
+      margin-top: 15px
+    +respond-to(-320)
+      width: 197px
+      font-size: 11px
+      display: block
+      height: 46px
+      background: #005ea0
+      float: right
+      text-transform: uppercase
+      border-radius: 3px
+      padding: 16px 0
+    &:hover
+      opacity: .7

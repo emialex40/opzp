@@ -1,0 +1,66 @@
+section.section.forms#forms
+   .container
+      .row
+         //step form block
+         .col-md-7
+            .step_form
+               h3.step_form__title Бесплатная правовая поддержка позащите прав населения
+               .step_form__form_block
+                  p.step_form__txt.js-speptxt
+                     | Опишите, пожалуйста, вашу ситуацию ниже и получите бесплатную
+                     | консультацию нашего юриста в течение 5 минут.
+                  form.step_form__form
+                     .step_form__step1.js-step1
+                        textarea.step_form__textarea.js-textarea(placeholder="Текст вашего вопроса...", name="text1")
+                        .step_form__example.js-exml
+                           span.
+                               Пример: Столкнулась с недобросовестным продавцом, при продаже мобильного
+                               телефона, мне продали бракованный товар. При обращении в магазин, мне было
+                               сказано, что это технически сложный товар и его назад не возьмут. Что делать
+                               в этой ситуации?
+                        .step_form__btn_bock
+                           button(type="button",class="step_form__btn js-btn" name="form_btn") Задать вопрос
+
+                     .clear
+                .step_form__step2.js-step2
+                  form.step_form__form.js-form#form1(method="post")
+                      .step_form__name_block
+                        label(for="name", class="spep_input step_form__label_name") Введите Ваше имя:
+                        input(type="text",id="name", class="step_form__name", name="name", placeholder="Например: Иванов Иван Иванович", required)
+                      .step_form__phone_block
+                        label(for="phone", class="step_input step_form__label_phone") Введите Ваш телефон:
+                        input(type="tel", id="phone", class="step_form__phone phone", name="phone", placeholder="Например: 8 (495) 987-65-43", required)
+                      .step_form__textarea_hideblock
+                        textarea.step_form__textarea_hide.js-txthide(name="mess")
+                      .step_form__subm_block
+                        input(type="submit",class="step_form__subm js-subm" value="Готово")
+                .clear
+
+         //counter block
+         .col-md-5.col-lg-5
+          .counter__wrap
+            .counter
+              .counter__top
+                .counter__txt.
+                  ПРИНЯТО ЗАЯВОК СЕГОДНЯ:
+                .counter__count.js-count1
+                .clear
+              .counter__bottom
+                .counter__txt.
+                  ОСТАЛОСЬ БЕСПЛАТНЫХ КОНСУЛЬТАЦИЙ НА СЕГОДНЯ:
+                .counter__count.js-count2
+                .clear
+              .counter__btn
+                a(href="javascript:;", data-fancybox, data-src="#modal").js-callback
+                  input(type="button", value="ПОЛУЧИТЬ БЕСПЛАТНУЮ ПОМОЩЬ")
+            .realisation
+              .realisation__title.
+                ПРОЕКТ РЕАЛИЗОВАН В РАМКАХ:
+              .realisation__txt
+                p.
+                  Федерального закона Российской Федерации от 21 ноября 2011 г. №324-ФЗ
+                p.
+                  О бесплатной юридической помощи в Российской Федерации”
+                  (Принят Государственной Думой 2 ноября 2011 года и одобрен Советом Федерации 9 ноября 2011 года).
+
+

@@ -1,0 +1,133 @@
+.nav_mob
+  width: 100%
+  height: 46px
+  background: #1f436f
+  display: none
+  +respond-to(-768)
+    display: block
+  +respond-to(-480)
+    display: block
+  +respond-to(-320)
+    display: block
+  &__wrap
+    width: 100%
+  &__right
+    display: none
+    float: right
+    color: $white
+    padding-top: 5px
+    +respond-to(-480)
+      display: inline-block
+    +respond-to(-320)
+      display: inline-block
+  &__hotline
+    display: none
+    font-size: 13px
+    +respond-to(-480)
+      display: block
+    +respond-to(-320)
+      display: block
+  &__telnumb
+    display: none
+    font-size: 18px
+    float: right
+    +respond-to(-480)
+      display: block
+    +respond-to(-320)
+      display: block
+  &__slide
+    display: none
+    background: #1f436f
+    width: 280px
+    padding: 60px 0
+    z-index: 700
+    position: fixed
+    top: 0
+    left: 50%
+    transform: translateX(-50%)
+    +respond-to(-480)
+      left: 0
+      transform: translateX(0)
+    +respond-to(-320)
+      left: 0
+      transform: translateX(0)
+  &__ul
+    width: 100%
+    padding: 0 70px
+  &__item
+    //text-align: center
+    padding: 15px 0
+  &__item
+    display: block
+  &__menu
+    display: inline-block
+    left: 50%
+    transform: translateX(-50%)
+    width: 75px
+    height: 46px
+    position: relative
+    z-index: 800
+    +respond-to(-480)
+      left: 0
+      transform: translateX(0)
+    +respond-to(-320)
+      left: 0
+      transform: translateX(0)
+  &__txt
+    font-family: $osBold
+    font-size: 11px
+    color: $white
+    text-transform: uppercase
+    position: absolute
+    right: 0
+    top: 50%
+    transform: translateY(-50%)
+  &__humburger
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 50px
+    height: 40px
+    cursor: pointer
+    margin-top: 16px
+  &__line
+    position: relative
+    transform: translateY($bar-spacing)
+    background: rgba(255, 255, 255, 1)
+    transition: all 0ms 300ms
+    &:before
+      content: ""
+      position: absolute
+      left: 0
+      bottom: $bar-spacing
+      background: rgba(255, 255, 255, 1)
+      transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+    &:after
+      content: ""
+      position: absolute
+      left: 0
+      top: $bar-spacing
+      background: rgba(255, 255, 255, 1)
+      transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+
+.nav_mob__line, .nav_mob__line:after, .nav_mob__line:before
+    width: $bar-width
+    height: $bar-height
+
+.animate
+  background: rgba(255, 255, 255, 0)
+
+.nav_mob__line.animate:after
+  top: 0
+  transform: rotate(45deg)
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1)
+
+.nav_mob__line.animate:before
+  bottom: 0
+  transform: rotate(-45deg)
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1)
+
+
+

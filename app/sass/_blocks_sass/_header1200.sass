@@ -1,0 +1,178 @@
+.header
+  width: 100%
+.top_header
+  //height: 135px
+  background: #234d80
+  padding-top: 15px
+  padding-bottom: 14px
+  +respond-to(-320)
+    padding-top: 30px
+    padding-bottom: 30px
+  &__flex
+    display: flex
+    justify-content: space-between
+    +respond-to(-480)
+      flex-direction: column
+      justify-content: center
+    +respond-to(-320)
+      flex-direction: column
+      justify-content: center
+  &__left
+    width: 67%
+    display: inline-block
+    position: relative
+    +respond-to(-992)
+      width: 75%
+    +respond-to(-480)
+      display: block
+      width: 100%
+    +respond-to(-320)
+      display: block
+      width: 100%
+  &__logo
+    display: inline-block
+    width: 94px
+    height: 102px
+    margin-left: 4px
+    margin-right: 20px
+    float: left
+    img
+      width: 100%
+    +respond-to(-992)
+      margin-left: 0
+      margin-right: 15px
+    +respond-to(-768)
+      margin-left: 12px
+    +respond-to(-320)
+      width: 76px
+      height: auto
+      margin-right: 9px
+  &__txt
+    display: inline-block
+    //float: right
+    width: 72%
+    position: relative
+    top: 15px
+    +respond-to(-992)
+      width: 75%
+    +respond-to(-768)
+      width: 58%
+    +respond-to(-480)
+      width: 62%
+    +respond-to(-320)
+      width: 69%
+      top: 0
+  &__logo_txt
+    display: block
+    font-family: $osReg
+    font-size: 18px
+    color: $white
+    line-height: 1.4
+    +respond-to(-992)
+      font-size: 16px
+      padding-top: 7px
+    +respond-to(-768)
+      font-size: 14px
+    +respond-to(-480)
+      font-size: 14px
+    +respond-to(-320)
+      font-size: 12px
+  &__logo_txt_bottom
+    display: block
+    font-family: $osReg
+    font-size: 14px
+    color: $white
+    padding-top: 7px
+    padding-left: 2px
+    opacity: .7
+    +respond-to(-992)
+      padding-top: 9px
+    +respond-to(-768)
+      font-size: 13px
+    +respond-to(-480)
+      font-size: 13px
+    +respond-to(-320)
+      font-size: 13px
+  &__right
+    display: inline-block
+    width: 30%
+    color: $white
+    //float: right
+    padding-top: 18px
+    text-align: right
+    +respond-to(-992)
+      padding-right: 5px
+    +respond-to(-768)
+      width: 33%
+      padding-top: 22px
+    +respond-to(-480)
+      display: block
+      width: 100%
+      text-align: center
+    +respond-to(-320)
+      display: block
+      width: 100%
+      text-align: center
+  &__hotline
+    display: block
+    font-family: $osReg
+    font-size: 14px
+    +respond-to(-768)
+      font-size: 13px
+    +respond-to(-480)
+      display: none
+    +respond-to(-320)
+      display: none
+  &__telnumb
+    display: block
+    font-family: $osReg
+    font-size: 30px
+    padding-top: 5px
+    padding-bottom: 4px
+    +respond-to(-992)
+      font-size: 28px
+      padding-bottom: 7px
+    +respond-to(-768)
+      font-size: 24px
+    +respond-to(-480)
+      font-size: 18px
+      display: none
+    +respond-to(-320)
+      font-size: 18px
+      display: none
+  &__callback
+    font-family: $osReg
+    font-size: 14px
+    color: $white
+    text-decoration: none
+    +respond-to(-768)
+      font-size: 13px
+    +respond-to(-480)
+      display: block
+      font-size: 12px
+      width: 213px
+      height: 46px
+      background: #005ea0
+      margin: 0 auto
+      text-transform: uppercase
+      border-radius: 3px
+      padding: 16px 0
+    +respond-to(-320)
+      font-size: 11px
+      display: block
+      width: 213px
+      height: 46px
+      background: #005ea0
+      float: right
+      text-transform: uppercase
+      border-radius: 3px
+      padding: 16px 0
+    &:hover
+      opacity: .7
+      color: $white
+      text-decoration: none
+    &:focus
+      opacity: .7
+      color: $white
+      text-decoration: none
+

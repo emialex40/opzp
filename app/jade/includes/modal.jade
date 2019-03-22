@@ -1,0 +1,25 @@
+.parent_modal
+.modal#modal
+  .modal__top
+    //.modal__close.js-close
+    .modal__check
+    .modal__text
+      span Остался один шаг<br> и мы решим Вашу проблему
+    .modal__phone
+      span 8-800-987-65-43
+  .modal__bottom
+    .modal__form_block
+      form#cb_form.modal__form(method="post")
+        .modal__inputs
+          input.modal__input(type="text", name="name", placeholder="Ваше имя", required)
+        .modal__inputs
+          input.modal__input.phone(type="tel", name="phone", placeholder="Ваш телефон", required)
+        .modal__inputs
+          input.modal__submit(type="submit",value="Отправить")
+
+#success.success
+  .success__text Ваша заявка принята
+
+.ontop
+  img(src="img/top.png")
+

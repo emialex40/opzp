@@ -1,0 +1,106 @@
+/*----- counter styles ------*/
+.counter
+  width: 100%
+  background: $white
+  padding: 17px 30px 23px
+  +respond-to(-992)
+    padding: 17px 7px 23px
+  +respond-to(-768)
+    width: 62%
+  +respond-to(-480)
+    width: 100%
+  +respond-to(-320)
+    width: 100%
+    padding: 17px 10px 23px
+  &__wrap
+    +respond-to(-768)
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+  &__top
+    background: $body
+    position: relative
+  &__bottom
+    background: $body
+    position: relative
+    margin-top: 15px
+  &__txt
+    display: inline-block
+    font-family: $osBold
+    font-size: 14px
+    text-transform: uppercase
+    color: $blue
+    padding-left: 13px
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    width: 60%
+    +respond-to(-992)
+      font-size: 13px
+    +respond-to(-320)
+      padding-left: 9px
+      font-size: 11px
+  &__count
+    display: inline-block
+    width: 105px !important
+    float: right
+  &__btn
+    margin-top: 15px
+    input
+      width: 91%
+      height: 55px
+      background: $btnBg
+      font-family: $osReg
+      font-size: 14px
+      text-transform: uppercase
+      color: $white
+      border: none
+      border-radius: 3px
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
+      +respond-to(-320)
+        width: 100%
+
+.realisation
+  width: 100%
+  background: $white url(../img/project_bg.png) no-repeat bottom right
+  background-size: contain
+  padding: 30px
+  margin-top: 20px
+  +respond-to(-992)
+    padding: 12px 23px
+  +respond-to(-768)
+    width: 35%
+    padding: 28px 8px
+    margin-top: 0
+  +respond-to(-480)
+    width: 100%
+    margin-top: 30px
+    padding: 18px 20px
+  +respond-to(-320)
+    width: 100%
+    margin-top: 30px
+    padding: 25px 12px
+  &__title
+    font-family: $osBold
+    font-size: 14px
+    color: $black
+    padding-bottom: 20px
+    +respond-to(-768)
+      font-size: 13px
+      padding-bottom: 24px
+  &__txt
+    font-family: $osReg
+    font-size: 14px
+    color: $txt
+    +respond-to(-768)
+      font-size: 11px
+    +respond-to(-320)
+      font-size: 13px
+    p
+      line-height: 1.4
+      &:last-child
+        padding-top: 29px
+        +respond-to(-992)
+          line-height: 1.4

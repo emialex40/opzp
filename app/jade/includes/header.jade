@@ -1,0 +1,49 @@
+header.header
+   .nav_mob
+      .container
+         .row
+            .col-md-12
+               .nav_mob__wrap
+                  .nav_mob__menu
+                     .nav_mob__humburger
+                        .nav_mob__line
+                     .nav_mob__txt меню
+                  .nav_mob__slide
+                     ul.nav_mob__ul
+                        li.nav_mob__item
+                           a.nav__link(href="#activity") ДЕЯТЕЛЬНОСТЬ
+                        li.nav_mob__item
+                           a.nav__link(href="#treatments") ОБРАЩЕНИЯ
+                        li.nav_mob__item
+                           a.nav__link(href="#cooperation") СОТРУДНИЧЕСТВО
+                        li.nav_mob__item
+                           a.nav__link(href="#contacts") КОНТАКТЫ
+                  .nav_mob__right
+                     span.nav_mob__hotline Бесплатная горячая линия
+                     span.nav_mob__telnumb 8-800-987-65-43
+   .top_header
+      .container
+         .row
+            .col-md-12
+               .top_header__flex
+                  .top_header__left
+                     .top_header__logo
+                        a(href="/")
+                           img(src="img/rf_herb.png", alt="logo")
+                     .top_header__txt
+                        span.top_header__logo_txt
+                           | ОБЩЕСТВЕННАЯ ПРИЕМНАЯ ПО ЗАЩИТЕ ПРАВ ПОТРЕБИТЕЛЕЙ
+                           | ПО МОСКВЕ И МОСКОВСКОЙ ОБЛАСТИ
+                        span.top_header__logo_txt_bottom
+                           | Официальный сайт общества защиты прав
+                  .top_header__right
+                     span.top_header__hotline Бесплатный телефон горячей линии
+                     span.top_header__telnumb 8-800-987-65-43
+                     a(href="javascript:;", data-fancybox, data-src="#modal").top_header__callback.js-callback Заказать обратный звонок
+   .top_nav
+      .container
+         .row
+            .col-md-12
+               include ../includes/top_menu
+.clear
+

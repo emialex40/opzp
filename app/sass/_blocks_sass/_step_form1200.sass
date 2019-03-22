@@ -1,0 +1,122 @@
+/*----- step form styles ------*/
+.step_form
+  width: 100%
+  background: $white
+  padding: 30px 39px
+  +respond-to(-992)
+    padding: 30px 25px
+  +respond-to(-768)
+    padding: 39px 39px 16px
+    margin-bottom: 30px
+  +respond-to(-480)
+    padding: 30px 8px
+  +respond-to(-320)
+    padding: 30px 8px
+  &__title
+    font-family: $osBold
+    font-size: 24px
+    color: $black
+    display: block
+    width: 90%
+    line-height: 1.25
+    +respond-to(-768)
+      width: 84%
+    +respond-to(-480)
+      width: 90%
+      font-size: 22px
+    +respond-to(-320)
+      width: 100%
+      font-size: 19px
+  &__txt
+    font-family: $osReg
+    font-size: 14px
+    color: $txt
+    padding-top: 10px
+    padding-bottom: 20px
+    width: 90%
+    line-height: 1.4
+    +respond-to(-992)
+      width: 100%
+    +respond-to(-768)
+      width: 85%
+    +respond-to(-320)
+      font-size: 13px
+      width: 100%
+  &__step1
+    display: block
+  &__step2
+    display: none
+    label
+      display: block
+      font-family: $osBold
+      font-size: 14px
+      color: $black
+      padding-bottom: 10px
+    input
+      display: block
+      width: 100%
+      height: 57px
+      padding-left: 15px
+  &__textarea
+    width: 100%
+    height: 138px
+    resize: none
+    padding: 12px 14px
+    border: 1px solid #dbe0e1
+  &__example
+    background: $body
+    width: 100%
+    padding: 15px
+    margin-top: 14px
+    +respond-to(-320)
+      padding: 9px
+    span
+      font-family: $osReg
+      font-size: 13px
+      color: $txt
+      display: block
+      position: relative
+      padding-left: 50px
+      +respond-to(-320)
+        padding-left: 0px
+        font-size: 12px
+      &:before
+        content: ''
+        width: 33px
+        height: 33px
+        background: url(../img/question_icon.png) no-repeat
+        position: absolute
+        top: 12px
+        left: 6px
+        +respond-to(-320)
+          display: none
+  &__btn_bock
+    margin-top: 18px
+    +respond-to(-768)
+      margin-top: 22px
+  &__btn
+    float: right
+    width: 260px
+    height: 55px
+    background: $btnBg
+    color: $white
+    text-transform: uppercase
+    border: none
+    border-radius: 3px
+    z-index: 1
+  &__phone_block
+    margin-top: 30px
+  &__textarea_hideblock
+    display: none
+  &__subm_block
+    margin-top: 60px
+  &__subm
+    float: right
+    width: 260px !important
+    height: 55px !important
+    background: $btnBg
+    color: $white
+    text-transform: uppercase
+    border: none
+    border-radius: 3px
+

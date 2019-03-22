@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_activity320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_activity480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_activity768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_cooperation320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_cooperation480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_cooperation768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_counter320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_counter480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_counter768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_footer320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_footer480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_footer768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_forms320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_forms480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_forms768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_header320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_header480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_header768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_modal320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_modal480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_modal768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_nav_mob320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_nav_mob480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_nav_mob768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_step_form320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_step_form480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_step_form768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_top_nav320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_top_nav480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_top_nav768.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_treatments320.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_treatments480.sass" />
+    <file url="file://$PROJECT_DIR$/app/sass/_blocks_sass/_treatments768.sass" />
+  </component>
+</project>

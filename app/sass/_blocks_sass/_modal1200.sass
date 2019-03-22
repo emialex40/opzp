@@ -1,0 +1,128 @@
+/*------- modal styles beginning ------*/
+.parent_modal
+  display: none
+  width: 100%
+  height: 100%
+  background: #000
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 300
+  opacity: .6
+
+.modal
+  display: none
+  width: 400px
+  height: content-box
+  z-index: 1000
+  +respond-to(480)
+    width: 320px
+  &__top
+    width: 100%
+    height: 290px
+    background: $white
+    &:after
+      content: ''
+      width: 63px
+      height: 30px
+      background: url(../img/treangle_cb.png) no-repeat
+      position: absolute
+      bottom: 261px
+      left: 50%
+      transform: translateX(-50%)
+  &__bottom
+    width: 100%
+    height: 290px
+    background: $bgGreen
+  &__check
+    width: 81px
+    height: 82px
+    background: url(../img/green_check.png) no-repeat center center
+    display: inline-block
+    position: relative
+    top: 30px
+    left: 50%
+    transform: translateX(-50%)
+  &__text
+    font-family: $osReg
+    font-size: 20px
+    text-align: center
+    padding-top: 50px
+    color: $black
+  &__phone
+    font-family: $osReg
+    font-size: 36px
+    text-align: center
+    color: $black
+    padding-top: 30px
+  &__form_block
+    width: 300px
+    margin: 0 auto
+    padding-top: 44px
+  &__input
+    width: 100%
+    height: 60px
+    border: none
+    margin: 8px 0
+    padding: 15px
+  &__submit
+    width: 100%
+    height: 56px
+    margin: 8px 0
+    background: $green
+    border-radius: 3px
+    border: none
+    color: $white
+    text-transform: uppercase
+    font-family: $osLight
+    font-size: 14px
+    transition: .5s
+    &:hover
+      transition: .5s
+      opacity: .8
+  &__close
+    width: 16px
+    height: 16px
+    background: url(../img/cb_close.png) no-repeat center center
+    position: absolute
+    top: 18px
+    right: 25px
+    cursor: pointer
+
+.success
+  display: none
+  width: 400px
+  height: content-box
+  z-index: 1000
+  &__text
+    background: $bgGreen
+    text-transform: uppercase
+    font-family: $osReg
+    font-size: 24px
+    color: $white
+    text-align: center
+    padding: 30px 0
+
+.ontop
+  display: none
+  width: 80px
+  height: 80px
+  background: #142c4b
+  position: fixed
+  bottom: 35px
+  left: 60px
+  opacity: .8
+  border-radius: 50%
+  cursor: pointer
+  +respond-to(1400)
+    width: 60px
+    height: 80px
+    border-radius: 0 50px 0 0
+    left: 0
+    bottom: 0
+  img
+    width: 60%
+    position: relative
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
